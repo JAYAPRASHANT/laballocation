@@ -9,13 +9,13 @@ public class Lab {
         int z = sc.nextInt();
         int n = sc.nextInt();
 
-        int dfX=Math.abs(x-n);
-        int dfY=Math.abs(y-n);
-        int dfZ=Math.abs(z-n);
-        if(dfX<=dfY && dfX<=dfZ){
+        int X1=Math.abs(x-n);
+        int Y1=Math.abs(y-n);
+        int Z1=Math.abs(z-n);
+        if(X1<=Y1 && X1<=Z1){
             System.out.println("l1");
         }
-        else if(dfY<=dfX && dfY<=dfX){
+        else if(Y1<=X1 && Y1<=Z1){
             System.out.println("l2");
         }
         else{
